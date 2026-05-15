@@ -1,0 +1,94 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+/* 헤더 영역 */
+header{
+    background-color: antiquewhite;
+
+    /* vh는 뷰포트(사용자 기기의 화면)을 기준으로 크기가 결정된다 */
+    /* 20vh 사용자 화면 높이의 20%를 의미 */
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* 네비게이션 */
+nav{
+    background-color: cadetblue;
+    height: 25%;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+li{
+    list-style-type: none;
+    width: 70px;
+    padding: 0 0 0 10px;
+}
+.nav-login{
+    cursor: pointer;
+}
+
+
+/* 모달창 */
+.modal-box{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    /* 포지션 설정 */
+    position : absolute;
+    /* display: flex; */
+    display: none; 
+    /* 모달창 숨기기 */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-box{
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+
+    position: relative;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-btn-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin : 10px 10px 0 0;
+}
+
+/* 모달창 닫기 버튼 x */
+.x-box{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    right: -30px;
+    top : -40px;
+    cursor: pointer;
+}
+
+
+
+
+/* 메인 영역 */
+main{
+    background-color: cornflowerblue;
+    height: 80vh;
+}
+
+footer{
+    background-color: black;
+    height: 20vh;
+}

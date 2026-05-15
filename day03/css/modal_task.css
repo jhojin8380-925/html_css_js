@@ -67,8 +67,8 @@ header{
     margin: 10px 0 0 20px;
 }
 .input-box{
-    width: 200px;
-    height: 25px;
+    width: 12vw;
+    height: 3vh;
     border: 1px solid black;
     border-radius: 5px;
     margin: 0 0 0 20px;
