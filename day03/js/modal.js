@@ -16,3 +16,15 @@ xBox.addEventListener('click', function(){
     modalBox.style.display = 'none';
 })
 
+
+// 자식 노드
+xBox.addEventListener("mouseover", function(){
+    // console.log(this.childNodes);
+    // console.log(this.childNodes[1]);
+    this.childNodes[1].style.color = 'tomato';
+    
+})
+
+xBox.addEventListener("mouseout", function(){
+    this.childNodes[1].style.color = 'black';
+})
