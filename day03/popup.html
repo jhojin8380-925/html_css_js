@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>팝업창</title>
+</head>
+<body>
+    <button type="button">팝업</button>
+</body>
+<script>
+    let btn = document.querySelector("button")
+
+    btn.addEventListener("click", ()=>{
+        // 클릭하면 팝업창 활성화
+        window.open("http://www.naver.com", "_blank",
+            "width = 700, height = 600, top = 50, left = 50, scrollbars=yes"
+        );
+        // _blank : 새창으로 연다
+    })
+</script>
+</html>
