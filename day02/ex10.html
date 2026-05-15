@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+
+    <!-- 이벤트 처리하기 위해 -->
+    <button type="button" onclick="alert('클릭했습니다')">버튼1</button>
+    <button type="button" onclick="test()">버튼2</button>
+    <button type="button" onclick="test2()">버튼3</button>
+    <div onmouseover="body.style.background = 'yellow'"
+        onmouseout="body.style.background = 'white'">
+        마우스를 올려보세요!
+    </div>
+    <button type="button" onclick="test3()">버튼4</button>
+
+</body>
+<script>
+    function test(){
+        alert("test함수 호출!")
+    }
+    function test2(){
+        if(confirm("정말로 삭제하시겠습니까?")){
+            alert("삭제 완료!")
+        } else {
+            alert("삭제 취소!")
+        }
+    }
+    function test3(){
+        if(confirm("새로고침 하시겠습니까?")){
+            alert("새로고침 완료")
+        } else {
+            alert("실행 취소")
+        }
+        
+        if(test3 == true){
+            prompt("이름 입력")
+        }
+    }
+    
+</script>
+</html>
