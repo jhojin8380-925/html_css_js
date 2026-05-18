@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 헤더 */
+header{
+    height: 10vh;
+    background-color: bisque;
+}
+.header-text{
+    height: 7vh;
+}
+nav{
+    background-color: burlywood;
+    height: 3vh;
+
+    position: relative;
+}
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+li{
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+/* 사이드 바 1번*/
+.sidemenu1-nav{
+    width: 100px;
+    background-color: white;
+
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+}
+.none1{
+    display: none;
+}
+.sidemenu1-ul{
+    display: flex;
+    flex-direction: column;
+}
+.sidemenu1-li{
+    width: 7vw;
+    font-width: bold;
+    color: black;
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 5px;
+}
+/* 사이드 바 2번 */
+.sidemenu2-nav{
+    width: 100px;
+    background-color: white;
+
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+}
+.none2{
+    display: none;
+}
+.sidemenu2-ul{
+    display: flex;
+    flex-direction: column;
+}
+.sidemenu2-li{
+    width: 7vw;
+    font-width: bold;
+    color: black;
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 5px;
+}
+/* 사이드바의 사이드바 */
+.ssidemenu1-nav{
+    width: 100px;
+    background-color: white;
+
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+}
+.snone1{
+    display: none;
+}
+.ssidemenu1-ul{
+    display: flex;
+    flex-direction: column;
+}
+.ssidemenu1-li{
+    width: 7vw;
+    font-width: bold;
+    color: black;
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 5px;
+}
+/* 메인 */
+main{
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+section{
+    width: 50%;
+}
+
+/* 푸터 */
+footer{
+    height: 10vh;
+    background-color: bisque;
+}

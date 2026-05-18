@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    display: block;
+}
+div{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+.title{
+    height: 20px;
+    width: 570px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.body{
+    width: 570px;
+    height: 500px;
+    border-radius: 5px;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: antiquewhite;
+    height: 20vh;
+}
+
+/* 헤더 */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+/* 네비게이션 바 */
+nav{
+    background-color: brown;
+    height: 40px;
+    
+    /* sub-menu */
+    position: relative;
+}
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+li{
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+/* 서브(사이드) 메뉴 바 */
+.sub-menu{
+    border: 1px solid black;
+    width: 100px;
+    background-color: slategray;
+
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.sub-menu-ul{
+    display: flex;
+    flex-direction: column;
+}
+.sub-menu-li{
+    font-width: bold;
+    color: gold;
+
+}
+.none{
+    /* 공간 안보이게 제거 */
+    display: none;
+}
+
+/* 메인 */
+main{
+    background-color: cadetblue;
+    height: 80vh;
+}
