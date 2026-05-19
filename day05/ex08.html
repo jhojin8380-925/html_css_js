@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>fetch 화면 출력 예제</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; }
+            .card {
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                padding: 20px;
+                margin: 10px 0;
+                max-width: 500px;
+            }
+            .card h3 { color: #333; margin-bottom: 10px; }
+            .card p  { color: #666; line-height: 1.6; }
+            button {
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            button:hover { background-color: #45a049; }
+        </style>
+    </head>
+    <body>
+        <h2>게시글 불러오기</h2>
+        <!-- 버튼을 클릭하면 데이터를 가져와서 아래 영역에 출력한다 -->
+        <button id="btn-load">게시글 불러오기</button>
+        <div id="result-box"></div>
+
+        <script src="./js/ex07.js"></script>
+    </body>
+</html>
